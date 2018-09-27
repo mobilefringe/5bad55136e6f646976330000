@@ -209,6 +209,7 @@ function renderFeatureItems(){
         item.name = "placeholder";
         item.url = "/";
         item.image_url = val;
+        items.push(item);
     });
     $.each(items, function(i, val){
         if(Cookies.get('current_locale') == "en-CA"){
