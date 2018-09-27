@@ -205,6 +205,8 @@ function renderFeatureItems(){
     var items = [];
     var images= ["http://via.placeholder.com/470x940","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470x940","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470"]
     $.each(items, function(i, val){
+    });
+    $.each(items, function(i, val){
         if(Cookies.get('current_locale') == "en-CA"){
             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
         } else if(Cookies.get('current_locale') == "fr-CA"){
