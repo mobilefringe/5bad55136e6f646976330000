@@ -205,6 +205,7 @@ function renderFeatureItems(){
     var items = [];
     var images= ["http://via.placeholder.com/470x940","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470x940","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470"]
     $.each(images, function(i, val){
+        var item = {};
         
     });
     $.each(items, function(i, val){
