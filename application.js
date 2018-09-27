@@ -203,7 +203,7 @@ function renderEventDetails(container, template, collection, mall_name){
 function renderFeatureItems(){
     // var items = getFeatureList();
     var items = [];
-    var images= ["http://via.placeholder.com/470x940","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470x940"]
+    var images= ["https://picsum.photos/470/940","https://picsum.photos/470","https://picsum.photos/470","https://picsum.photos/470","https://picsum.photos/470","https://picsum.photos/470","https://picsum.photos/470","https://picsum.photos/470/940"]
     $.each(images, function(i, val){
         var item = {};
         item.name = "placeholder";
