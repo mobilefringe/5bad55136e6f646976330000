@@ -207,7 +207,8 @@ function renderFeatureItems(){
     $.each(images, function(i, val){
         var item = {};
         item.name = "placeholder";
-        item.url = "/"
+        item.url = "/";
+        item.image_url = val;
     });
     $.each(items, function(i, val){
         if(Cookies.get('current_locale') == "en-CA"){
