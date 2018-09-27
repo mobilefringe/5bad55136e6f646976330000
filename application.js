@@ -206,7 +206,8 @@ function renderFeatureItems(){
     var images= ["http://via.placeholder.com/470x940","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470x940","http://via.placeholder.com/470","http://via.placeholder.com/470","http://via.placeholder.com/470"]
     $.each(images, function(i, val){
         var item = {};
-        var name = "placeholder"
+        item.name = "placeholder";
+        item.url = "/"
     });
     $.each(items, function(i, val){
         if(Cookies.get('current_locale') == "en-CA"){
