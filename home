@@ -89,9 +89,13 @@
                     <!--<img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434698000/tweet.png" class="" alt="tweet">-->
                     <div>
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
-                        <p>
-                            <a class="social_link_blank" href="//twitter.com/LambtonMall" target="_blank">@LambtonMall</a> <br />
-                            <span id="latest_tweet_date"></span>
+                        <!--<p>-->
+                        <!--    <a class="social_link_blank" href="//twitter.com/LambtonMall" target="_blank">@LambtonMall</a> <br />-->
+                        <!--    <span id="latest_tweet_date"></span>-->
+                        <!--</p>-->
+                        <p id="latest_tweet_date" class="latest_post"></p>
+                        <p id="twitter_link">
+                            <a  class="social_link_blank" href="https://www.facebook.com/lambtonmall" target="_blank">Facebook/LambtonMall</a>
                         </p>
                     </div>
                 </div>
