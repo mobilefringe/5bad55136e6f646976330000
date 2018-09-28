@@ -666,7 +666,7 @@ function renderPromotions(container, template, collection, mall_name){
             val.description_short = val.description
         }
         // French Description
-        if (val.description_2.length > 200){
+        if (val.description_2 && val.description_2.length > 200){
             val.description_short_2 = val.description_2.substring(0,200) + "...";
         } else {
             val.description_short_2 = val.description_2
