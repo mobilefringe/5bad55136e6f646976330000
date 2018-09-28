@@ -93,7 +93,7 @@
                 }
             }
             
-            var blog = getBlogDataBySlug("lambton-news").posts
+            var blog = getBlogDataBySlug("lambton-back-to-school").posts
             var posts = blog.sortBy(function(o){ return o.publish_date}).reverse();
             renderPosts('#post_container', '#post_template', posts);
 
