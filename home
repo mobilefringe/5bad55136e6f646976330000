@@ -108,16 +108,22 @@
             
             <div class="feature_item">
                 <div id="feature_4" class="position_relative"></div>
-                <!--<a href="//www.facebook.com/LambtonMall/" target="_blank" class="show_phone">-->
-                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535551000/social_facebook-1.jpg" alt="fb">-->
-                <!--</a>-->
-                <div class="hidden_phone social_box text-center" id="social_fb">
-                    <!--<img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">-->
-                    <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
-                    <p> 
-                        <a  class="social_link_blank" href="//www.facebook.com/LambtonMall/" target="_blank">Facebook/ LambtonMallcentre</a> <br />
-                        <span id="latest_fb_date"></span>    
-                    </p>
+                <div class="social_box text-center" id="social_fb">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
+                    <span class="hidden-sm hidden-xs">
+                        <a href="#" id="latest_fb_link" target="_blank">
+                            <p id="latest_fb" class="latest_post"></p>
+                        </a>
+                        <p id="latest_fb_date" class="latest_post"></p>
+                        <p id="fb_link">
+                            <a  class="social_link_blank" href="https://www.facebook.com/lambtonmall" target="_blank">Facebook/LambtonMall</a>
+                        </p>
+                    </span>
+                    <span class="visible-sm-block visible-xs-block">
+                        <a href="https://www.facebook.com/lambtonmall" target="_blank">
+                            <h5 id="fb_mobile" class="insta">LIKE US ON FACEBOOK</h5>
+                        </a>        
+                    </span>
                 </div>
                 <div id="feature_5" class="position_relative"></div>
             </div>
