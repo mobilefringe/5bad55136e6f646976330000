@@ -39,7 +39,7 @@
                     </div>
                     <div class="mobile_share_container">
                         <span data-i18n="inside_page.share"></span>
-                        <a href="https://www.facebook.com/sharer.php?u=https://www.placebathurstmall.com/promotions/{{slug}}" target="_blank">
+                        <a href="https://www.facebook.com/sharer.php?u=https://lambtonmall.com/promotions/{{slug}}" target="_blank">
                             <i class="fa fa-facebook-square"></i>
                             <p class="accessibility">Facebook</p>
                         </a>
