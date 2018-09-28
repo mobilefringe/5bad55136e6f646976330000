@@ -79,7 +79,7 @@
                 }
             }); 
             
-            var parking_json = prefix + "/pages/lambton-parking.json"
+            var parking_json = prefix + "/pages/placebathurst-parking.json"
             $.getJSON(parking_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
                     $('#parking_title').html(data.title);
