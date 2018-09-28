@@ -63,7 +63,7 @@
             }
             
             var prefix = get_prefix();
-            var directions_json = prefix + "/pages/placebathurst-directions.json"
+            var directions_json = prefix + "/pages/lambton-directions.json"
             $.getJSON(directions_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
                     $('#directions_title').html(data.title);
@@ -79,7 +79,7 @@
                 }
             }); 
             
-            var parking_json = prefix + "/pages/placebathurst-parking.json"
+            var parking_json = prefix + "/pages/lambton-parking.json"
             $.getJSON(parking_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
                     $('#parking_title').html(data.title);
