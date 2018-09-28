@@ -48,7 +48,7 @@
     
     <script>
         setEndPoint('//lambton.mallmaverick.com/api/v4/lambton/all.json');
-        setSocialEndPoint('//lambton.mallmaverick.com/api/v2/lambton/social.json');
+        setSocialEndPoint('//lambton.mallmaverick.com/api/v4/lambton/social.json');
         
         Cookies.set('primary_locale', 'en-CA');
         Cookies.set('secondary_locale', 'fr-CA');
