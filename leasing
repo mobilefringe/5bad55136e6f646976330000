@@ -16,7 +16,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var banner_repo = getRepoDetailsByName("Leasing Banner").images;
+            var banner_repo = getRepoDetailsByName("Leasing Banner");
             if (banner_repo) {
                 var banner_image = banner_repo[0].image_url;
                 if (banner_image) {
@@ -25,7 +25,7 @@
             }
             
             var prefix = get_prefix();
-            var pages_json = prefix + "/pages/placebathurst-space-for-lease.json"
+            var pages_json = prefix + "/pages/lambton-space-for-lease.json"
             $.getJSON(pages_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
                     $('#mm_page_content').html(data.body);
