@@ -84,20 +84,20 @@
             </div>
             
             <div class="feature_item">
-                <a class="show_phone" href="//twitter.com/CORESHOPPING" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535257000/social_twitter.jpg"  alt=""></a>
+                <a class="show_phone" href="//twitter.com/LambtonMall" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535257000/social_twitter.jpg"  alt=""></a>
                 <div class="social_box hidden_phone text-center" d="social_twitter">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434698000/tweet.png" class="" alt="tweet">
                     <div>
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
                         <p>
-                            <a class="social_link_blank" href="//twitter.com/COREshopping" target="_blank">@CORESHOPPING</a> <br />
+                            <a class="social_link_blank" href="//twitter.com/LambtonMall" target="_blank">@LambtonMall</a> <br />
                             <span id="latest_tweet_date"></span>
                         </p>
                     </div>
                 </div>
                 <div id="feature_2" class="position_relative"></div>
                 <div>    
-                    <a href="//www.instagram.com/coreshopping/" target="_blank" class="block position_relative">
+                    <a href="//www.instagram.com/LambtonMall/" target="_blank" class="block position_relative">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535742000/social_instagram.jpg" class="show_phone" alt="">
                         <img class="hidden_phone" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1493066664000/instagram.png" class="" alt="map">
                         <span class="center_me hidden_phone">Follow us on Instagram</span>
@@ -107,14 +107,14 @@
             
             <div class="feature_item">
                 <div id="feature_3" class="position_relative"></div>
-                <a href="//www.facebook.com/COREshopping/" target="_blank" class="show_phone">
+                <a href="//www.facebook.com/LambtonMall/" target="_blank" class="show_phone">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535551000/social_facebook-1.jpg" alt="fb">
                 </a>
                 <div class="hidden_phone social_box text-center" id="social_fb">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                     <p> 
-                        <a  class="social_link_blank" href="//www.facebook.com/COREshopping/" target="_blank">Facebook/ COREshoppingcentre</a> <br />
+                        <a  class="social_link_blank" href="//www.facebook.com/LambtonMall/" target="_blank">Facebook/ LambtonMallcentre</a> <br />
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
