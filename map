@@ -58,7 +58,7 @@
     $(document).ready(function(e){
         init(e);
         function renderPageData(){
-            var banner_repo = getRepoDetailsByName("Map Banner").images;
+            var banner_repo = getRepoDetailsByName("Map Banner");
             if (banner_repo) {
                 var banner_image = banner_repo.images[0].image_url;
                 if (banner_image) {
