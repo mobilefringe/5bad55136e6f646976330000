@@ -123,7 +123,7 @@
             </div>
             
             <div class="feature_item">
-                               <div class="social">
+                <div class="social">
                     <a href="/hours" class="social_box text-center hours_box" id="hours_box">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463772189000/hours.png" class="" alt="hours" />
                         <span class="hidden-sm hidden-xs">
