@@ -164,7 +164,7 @@
                     e.preventDefault()
                     var selectedOption = $("#store_mobile_conatiner option:selected")
                     selectedOption = selectedOption[0]
-                    var svgmap_region = $(selectedOption).attr('data-svg');
+                    var svgmap_region = $(selectedOption).attr('store_id');
                     dropPin(svgmap_region);
                 });
             
