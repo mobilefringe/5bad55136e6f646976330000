@@ -209,16 +209,20 @@
                                 <p style="display: none;">Facebook</p>
                             </a>
                             <a href="https://twitter.com/LambtonMall" target="_blank">
-                                <span id="social_twitter"></span>
+                                <span><i class="fa fa-facebook"></i></span>
+                                <p style="display: none;">Facebook</p>
                             </a>
                             <a href="" target="_blank">
-                                <span id="social_twitter"></span>
+                                <span><i class="fa fa-facebook"></i></span>
+                                <p style="display: none;">Facebook</p>
                             </a>
                             <a href="" target="_blank">
-                                <span id="social_twitter"></span>
+                                <span><i class="fa fa-facebook"></i></span>
+                                <p style="display: none;">Facebook</p>
                             </a>
                             <a href="" target="_blank">
-                                <span id="social_twitter"></span>
+                                <span><i class="fa fa-facebook"></i></span>
+                                <p style="display: none;">Facebook</p>
                             </a>
                             <!--<a href="" target="_blank">-->
                             <!--    <span id="social_insta"></span>-->
