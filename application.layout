@@ -204,7 +204,8 @@
                         <p class="site_map_desc" data-i18n="footer.social_subtitle"></p>
                         <div class="social_icons">
                             <a href="https://www.facebook.com/lambtonmall/" target="_blank">
-                                <span id="social_fb"></span>
+                                <!--<span id="social_fb"></span>-->
+                                <i class="fa fa-facebook"></i>
                                 <p style="display: none;">Facebook</p>
                             </a>
                             <!--<a href="" target="_blank">-->
