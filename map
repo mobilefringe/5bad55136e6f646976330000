@@ -153,6 +153,21 @@
             map.on('mapready', function(e, self) {
 				console.log('Map is ready!');
 				// mapLoaded(map);
+				$('.map_pin_a').click(function(e){
+                e.preventDefault();
+                var svgmap_region = $(this).attr('data-svg');
+                dropPin(svgmap_region);
+            });
+            
+            $("#store_mobile_conatiner").bind("change", function(e) {
+                e.preventDefault()
+                var selectedOption = $("#store_mobile_conatiner option:selected")
+                selectedOption = selectedOption[0]
+                var svgmap_region = $(selectedOption).attr('data-svg');
+                dropPin(svgmap_region);
+            });
+            
+            show_content();
 			});
         }
 
@@ -203,21 +218,7 @@
             //     $(".mapplic-layer[data-floor='"+val.id+"']").hide();
             // });
             
-            $('.map_pin_a').click(function(e){
-                e.preventDefault();
-                var svgmap_region = $(this).attr('data-svg');
-                dropPin(svgmap_region);
-            });
             
-            $("#store_mobile_conatiner").bind("change", function(e) {
-                e.preventDefault()
-                var selectedOption = $("#store_mobile_conatiner option:selected")
-                selectedOption = selectedOption[0]
-                var svgmap_region = $(selectedOption).attr('data-svg');
-                dropPin(svgmap_region);
-            });
-            
-            show_content();
         }
         
         loadMallDataCached(renderPageData);
