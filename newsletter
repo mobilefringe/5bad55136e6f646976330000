@@ -17,7 +17,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <label for="fieldEmail" data-i18n="newsletter.email"></label>
-                                <input id="fieldEmail" name="cm-vuuhdi-vuuhdi" type="email" class="js-cm-email-input" required />
+                                <input id="fieldEmail" name="cm-ykblk-ykblk" type="email" class="js-cm-email-input" required />
                             </div>
                         </div>
                         <div class="row">
