@@ -146,7 +146,7 @@
             
             map.on('mapready', function(e, self) {
 				console.log('Map is ready!');
-				mapLoaded(map);
+				// mapLoaded(map);
 			});
         }
 
