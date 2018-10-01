@@ -214,10 +214,10 @@
                             <!--<a href="" target="_blank">-->
                             <!--    <span id="social_insta"></span>-->
                             <!--</a>-->
-                            <a href="/newsletter">
-                                <span id="social_newsletter"></span>
-                                <p style="display: none;">Newsletter</p>
-                            </a>
+                            <!--<a href="/newsletter">-->
+                            <!--    <span id="social_newsletter"></span>-->
+                            <!--    <p style="display: none;">Newsletter</p>-->
+                            <!--</a>-->
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
                         </div>
