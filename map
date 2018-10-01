@@ -171,9 +171,9 @@
 			});
         }
 
-        function mapLoaded (map) {
-            self = map.data('mapplic');
-            var svg = document.getElementById('Layer_1');
+        // function mapLoaded (map) {
+        //     self = map.data('mapplic');
+        //     var svg = document.getElementById('Layer_1');
             
             //get floors to be visible 
             // $(".mapplic-layer").show();
@@ -219,7 +219,7 @@
             // });
             
             
-        }
+        // }
         
         loadMallDataCached(renderPageData);
     });
