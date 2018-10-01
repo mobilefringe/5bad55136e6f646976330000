@@ -205,7 +205,7 @@
                         <div class="social_icons">
                             <a href="https://www.facebook.com/lambtonmall/" target="_blank">
                                 <!--<span id="social_fb"></span>-->
-                                <i class="fa fa-facebook"></i>
+                                <span><i class="fa fa-facebook"></i></span>
                                 <p style="display: none;">Facebook</p>
                             </a>
                             <!--<a href="" target="_blank">-->
