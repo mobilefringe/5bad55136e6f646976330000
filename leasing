@@ -25,7 +25,7 @@
             }
             
             var prefix = get_prefix();
-            var pages_json = prefix + "/pages/lambton-space-for-lease.json"
+            var pages_json = prefix + "/pages/lambton-leasing.json"
             $.getJSON(pages_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
                     $('#mm_page_content').html(data.body);
