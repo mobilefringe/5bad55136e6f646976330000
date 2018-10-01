@@ -154,7 +154,6 @@
 				console.log('Map is ready!');
 				// mapLoaded(map);
 				$('.map_pin_a').click(function(e){
-				    console.log("got click")
                     e.preventDefault();
                     var svgmap_region = $(this).attr('store_id');
                     dropPin(svgmap_region);
