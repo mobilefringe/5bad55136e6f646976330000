@@ -185,7 +185,7 @@
             <div class="hedaer_divider"></div>
         </section>
     </div>
-    <h1 class="accessibility">Place Bathurst Mall</h1>
+    <h1 class="accessibility">Lambton Mall</h1>
     <section class="yield">
         {{yield}}
     </section>
