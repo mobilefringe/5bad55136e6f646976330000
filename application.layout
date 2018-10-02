@@ -143,7 +143,7 @@
         <section class="content_container main_container position_relative">
             <div class="row header mobile_margin">
                 <div class="col-md-4 col-xs-4">
-                    <div class="language_toggle_mobile">
+                    <div class="language_toggle_mobile hide">
       					<a href="?locale=en" id="set_lang_en_m">EN</a> |
       					<a href="?locale=fr" id="set_lang_fr_m">FR</a>
 					</div>
@@ -163,7 +163,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-xs-4 text-right position_relative">
-                    <div class="language_toggle">
+                    <div class="language_toggle hide">
       					<a href="?locale=en" id="set_lang_en">EN</a> |
       					<a href="?locale=fr" id="set_lang_fr">FR</a>
 					</div>
