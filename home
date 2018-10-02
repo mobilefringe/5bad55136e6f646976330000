@@ -85,7 +85,7 @@
             
             <div class="feature_item">
                 <!--<a class="show_phone" href="//twitter.com/LambtonMall" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535257000/social_twitter.jpg"  alt=""></a>-->
-                <div class="social_box hidden_phone text-center" id="social_twitter">
+                <div class="social_box twitter_box hidden_phone text-center" id="social_twitter">
                     <!--<img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434698000/tweet.png" class="" alt="tweet">-->
                     <div>
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
