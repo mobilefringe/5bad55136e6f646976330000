@@ -1,5 +1,5 @@
 function init(e){
-    $('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
+    $('<div class="modal-backdrop custom_backdrop_load"><div class="loader">Loading...</div></div>').appendTo(document.body);
     
     //Using i18n for localization, for more info please visit http://i18next.com/
     i18n.init({preload: [getStorage().primary_locale,getStorage().secondary_locale],resGetPath: '../__lng__.json',fallbackLng: false }, function(t) {
