@@ -111,7 +111,7 @@
                 } 
             });
             if(published_jobs.length > 0){
-                renderJobs('#jobs_container', '#jobs_template', jobs, "Place Bathurst Mall");
+                renderJobs('#jobs_container', '#jobs_template', jobs, "Lambton Mall");
             } else {
                 $('#no_jobs').show()
             }
