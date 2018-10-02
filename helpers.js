@@ -85,7 +85,7 @@ function show_content(){
     setTimeout(function() {
         var scrolled = 0;
         $(".yield").css({visibility: "visible"});
-        $(".modal-backdrop").remove();
+        $(".custom_backdrop_load").remove();
     }, 800);
     
     var d = new Date();
