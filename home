@@ -208,7 +208,7 @@
             show_content();
             
             // if($.cookie("popup_viewed") != "true"){
-                $.cookie("popup_viewed", "true", { expires: 1 });
+                // $.cookie("popup_viewed", "true", { expires: 1 });
                 var popup = getPopups()[0];
                 if (popup != undefined){
                     $('.popup_home a').attr('href', popup.photo_link)
