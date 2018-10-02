@@ -108,7 +108,7 @@
             });
             
             if (published_promos.length > 0) {
-                renderEvents("#promos_container", "#promos_template", published_promos, "Place Bathurst Shopping Centre");
+                renderEvents("#promos_container", "#promos_template", published_promos, "Lambton Mall");
             } else {
                 $('#no_events').show()
             }
