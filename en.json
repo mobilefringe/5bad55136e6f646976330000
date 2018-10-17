@@ -79,9 +79,9 @@
 	    "scroll_down": "Scroll Down",
 	    "select": "Select a Store"
 	},
-	"news": {
-	    "title": "News",
-	    "return": "Return to News",
+	"blog": {
+	    "title": "Blog",
+	    "return": "Return to BLog",
 	    "posted": "Posted On:"
 	},
 	"events": {
