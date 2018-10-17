@@ -16,10 +16,8 @@
 	"nav": {
 	    "menu": "Menu",
 		"stores": "Stores",
-		"news": "News & Events",
-		
-		"about": "About",
-		"leasing": "Leasing",
+		"blog": "Blog",
+		"about": "About Us",
 		"promos": "Promotions",
 		"contests_events": "Contest & Events",
 		"guest_services": "Guest Services",
@@ -27,16 +25,16 @@
 			"directory": "Directory",
 	        "map": "Shopping Map",
 	        "whats_new": "What's New",
-	        "blog": "Blog",
 		    "careers": "Careers",
 		    "contact": "Contact Us",
-			"hours": "Hours",
+			"hours": "Shopping Hours",
 			"about": "About Us",
 			"directions": "Directions & Parking",
 			"services": "Services",
 			"gift_cards": "Gift Cards",
 			"act_green": "ACT Green",
-			"in_community": "In The Community"
+			"in_community": "In The Community",
+		    "leasing": "Leasing"
 		}
 	},
 	"home": {
