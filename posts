@@ -44,7 +44,7 @@
                                 <div class="col-md-9">
                                     <h2 class="promo_list_name">{{title}}</h2>
                                     <p>
-                                        <span data-i18n="news.posted"></span>
+                                        <span data-i18n="blog.posted"></span>
                                         <span class="promo_dates">{{published_on}}</span>
                                     </p>
                                     <div class="promo_list_desc">{{description_short}}</div>
@@ -64,7 +64,7 @@
                                 <div class="col-md-9">
                                     <h2 class="promo_list_name">{{title_2}}</h2>
                                     <p>
-                                        <span data-i18n="news.posted"></span>
+                                        <span data-i18n="blog.posted"></span>
                                         <span class="promo_dates">{{published_on}}</span>
                                     </p>
                                     <div class="promo_list_desc">{{description_short_2}}</div>
