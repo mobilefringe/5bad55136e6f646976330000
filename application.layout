@@ -101,7 +101,6 @@
                     <a href="/events">
                         <span data-i18n="nav.contest_events"></span>
                     </a>
-                    
                 </li>
                  <li>
                     <a href="#"  class="submenu_expander">
