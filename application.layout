@@ -115,6 +115,11 @@
 					</ul>
                 </li>
                 <li>
+                    <a href="/events">
+                        <span data-i18n="nav.blog"></span>
+                    </a>
+                </li>
+                <li>
                     <a href="#"  class="submenu_expander">
                         <span data-i18n="nav.blog"></span>
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166990000/open_submenu.png" alt="" style="display: inline;">
