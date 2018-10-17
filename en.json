@@ -48,7 +48,7 @@
 	    "whats_new": "What's New",
 	    "blog": "Blog",
 	    "events": "Events",
-	    "deals": "Deals",
+	    "deals": "Promotions",
 	    "careers": "Careers",
 	    "guest_services": "Guest Services",
 	    "gift_cards": "Gift Cards",
@@ -90,9 +90,9 @@
 	    "return": "Return to Events"
 	},
 	"promos": {
-	    "title": "Deals",
-	    "no_deals": "There are no Deals scheduled at this time. Please check back soon!",
-	    "return": "Return to Deals"        
+	    "title": "Promotions",
+	    "no_deals": "There are no Promotions scheduled at this time. Please check back soon!",
+	    "return": "Return to Promotions"        
 	},
 	"jobs": {
 	    "title": "Careers",
