@@ -132,12 +132,6 @@
                         <li><a href="/jobs" data-i18n="nav.subnav.careers"></a></li>
 					</ul>
                 </li>
-                <li>
-                    <a href="/leasing">
-                        <span data-i18n="nav.leasing"></span>
-                    </a>
-                    
-                </li>
             </ul>
         </div>
     </div>
