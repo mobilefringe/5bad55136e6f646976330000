@@ -15,13 +15,13 @@
 	},
 	"nav": {
 	    "menu": "Menu",
-		"stores": "Directory",
+		"stores": "Stores",
 		"news": "News & Events",
 		"services": "Services",
 		"about": "About",
 		"leasing": "Leasing",
 		"subnav": {
-			"directory": "Stores",
+			"directory": "Directory",
 	        "map": "Centre Map",
 	        "blog": "Blog",
 			"events": "Events",
