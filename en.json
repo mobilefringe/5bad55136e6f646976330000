@@ -20,13 +20,14 @@
 		"services": "Services",
 		"about": "About",
 		"leasing": "Leasing",
+		"promos": "Promotions",
 		"subnav": {
 			"directory": "Directory",
 	        "map": "Shopping Map",
 	        "whats_new": "What's New",
 	        "blog": "Blog",
 			"events": "Events",
-		    "promos": "Deals",
+		    
 		    "careers": "Careers",
 		    "guest_services": "Guest Services",
 		    "gift_cards": "Gift Cards",
