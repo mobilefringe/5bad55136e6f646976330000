@@ -96,7 +96,7 @@
                         <span data-i18n="nav.promos"></span>
                     </a>
                 </li>
-                 <li>
+                <li>
                     <a href="/events">
                         <span data-i18n="nav.contest_events"></span>
                     </a>
