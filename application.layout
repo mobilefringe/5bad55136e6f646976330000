@@ -126,10 +126,9 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/contact-us" data-i18n="nav.subnav.contact"></a></li>
                         <li><a href="/hours" data-i18n="nav.subnav.hours"></a></li>
-                        <li><a href="/about-us" data-i18n="nav.subnav.about"></a></li>
-                        <li><a href="/directions-and-parking" data-i18n="nav.subnav.directions"></a></li>
+                        <li><a href="/mall-info" data-i18n="nav.subnav.mall_info"></a></li>
+                        <li><a href="/leasing" data-i18n="nav.subnav.leasing"></a></li>
 					</ul>
                 </li>
                 <li>
