@@ -25,16 +25,14 @@
 			"directory": "Directory",
 	        "map": "Shopping Map",
 	        "whats_new": "What's New",
-		    "careers": "Careers",
-		    "contact": "Contact Us",
-			"hours": "Shopping Hours",
-			"mall_info": "Mall Info",
-			"directions": "Directions & Parking",
 			"services": "Services",
 			"gift_cards": "Gift Cards",
 			"act_green": "ACT Green",
 			"in_community": "In The Community",
-		    "leasing": "Leasing"
+			"hours": "Shopping Hours",
+			"mall_info": "Mall Info",
+		    "leasing": "Leasing",
+			"careers": "Careers"
 		}
 	},
 	"home": {
