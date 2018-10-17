@@ -54,9 +54,9 @@
 	    "gift_cards": "Gift Cards",
 	    "contact": "Contact Us",
 	    "hours": "Shopping Hours",
-	    "mall_info": "About Us",
-	    "directions": "Directions",
+		"mall_info": "Mall Info",
 	    "leasing": "Leasing",
+		"careers": "Careers",
 	    "share": "Share: "
 	},
 	"stores": {
