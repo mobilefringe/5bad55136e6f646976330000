@@ -140,7 +140,7 @@
         </div>
         <section class="content_container main_container position_relative">
             <div class="row header mobile_margin">
-                <div class="col-md-4 col-xs-4">
+                <div class="col-md-4 col-xs-12">
                 <div id="google_translate_element"></div>
                     <script type="text/javascript">
                         function googleTranslateElementInit() {
