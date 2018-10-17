@@ -113,7 +113,7 @@
                         <li><a href="/services" data-i18n="nav.subnav.services"></a></li>
                         <li><a href="/gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
                         <li><a href="/pages/lambtonmall-act-green" data-i18n="nav.subnav.act_green"></a></li>
-                        <li><a href="/gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
+                        <li><a href="/pages/lambtonmall-in-the-community" data-i18n="nav.subnav.in_community"></a></li>
 					</ul>
                 </li>
                 <li>
