@@ -275,7 +275,7 @@
                             <ul>
                                 <li><a href="/stores" data-i18n="nav.subnav.directory"></a></li>
                                 <li><a href="/posts" data-i18n="nav.blog"></a></li>
-                                <li><a href="/events" data-i18n="nav.events"></a></li>
+                                <li><a href="/events" data-i18n="nav.contest_events"></a></li>
                                 <li><a href="/promotions" data-i18n="nav.promos"></a></li>
                                 <li><a href="/jobs" data-i18n="nav.subnav.careers"></a></li>
                             </ul>
