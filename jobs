@@ -2,7 +2,6 @@
     <h2 data-i18n="jobs.title"></h2>
     <p data-i18n="inside_page.header_tagline"></p>
 </div>
-
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-3">
