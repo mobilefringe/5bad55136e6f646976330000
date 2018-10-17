@@ -527,13 +527,13 @@ function renderPosts(container, template, collection){
         }
             
         // English Description
-        if (val.body.length > 200){
+        if (val.body &&val.body.length > 200){
             val.description_short = val.body.substring(0,200) + "...";
         } else {
             val.description_short = val.body
         }
         // French Description
-        if (val.body_2.length > 200){
+        if (val.body_2 && val.body_2.length > 200){
             val.description_short_2 = val.body_2.substring(0,200) + "...";
         } else {
             val.description_short_2 = val.body_2
