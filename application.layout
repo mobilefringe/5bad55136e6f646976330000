@@ -91,6 +91,18 @@
 						<li><a href="/map" data-i18n="nav.subnav.whats_new"></a></li>
 					</ul>
                 </li>
+                 <li>
+                    <a href="/leasing">
+                        <span data-i18n="nav.promos"></span>
+                    </a>
+                    
+                </li>
+                 <li>
+                    <a href="/leasing">
+                        <span data-i18n="nav.contest_events"></span>
+                    </a>
+                    
+                </li>
                 <li>
                     <a href="#"  class="submenu_expander">
                         <span data-i18n="nav.blog"></span>
