@@ -4,13 +4,16 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-       <div class="col-md-4">
-            <h5 data-i18n="inside_page.stores"></h5>
+        <div class="col-md-4">
+            <h5><a href="/stores" data-i18n="inside_page.stores"></a></h5>
         </div>
         <div class="col-md-4">
-            <h5 class="active_heading"><a href="/map" data-i18n="inside_page.map"></a></h5>
+            <h5 class="active_heading" data-i18n="inside_page.map"></h5>
         </div>
         <div class="col-md-4">
+            <h5 class="active_heading" data-i18n="inside_page.stores"></h5>
+        </div>
+         <div class="col-md-4">
             <h5><a href="/whats-new" data-i18n="inside_page.whats_new"></a></h5>
         </div>
     </div>
