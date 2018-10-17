@@ -44,7 +44,7 @@
 	    "header_tagline": "EXPLORE • ENJOY • SHOP",
 	    "mobile_menu": "Tap For More Options",
 	    "stores": "Stores",
-	    "map": "Centre Map",
+	    "map": "Shopping Map",
 	    "blog": "Blog",
 	    "events": "Events",
 	    "deals": "Deals",
@@ -72,7 +72,7 @@
 	    "store_website": "Website"
 	},
 	"map": {
-	    "title": "Centre Map",
+	    "title": "Shopping Map",
 	    "find_store": "Find A Store",
 	    "scroll_up": "Scroll Up",
 	    "scroll_down": "Scroll Down",
@@ -99,7 +99,7 @@
 	    "return": "Return to Careers"    
 	},
 	"hours": {
-	    "title": "Centre Hours",
+	    "title": "Shopping Hours",
 	    "regular_hours": "Regular Hours",
 	    "reduced_hours": "Reduced Hours of Operation",
 	    "closed_hours": "Holiday Closures"
