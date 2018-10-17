@@ -49,7 +49,7 @@
                                     </p>
                                     <div class="promo_list_desc">{{description_short}}</div>
                                     <a class="newsletter_btn animated_btn inside_btn" href="/posts/{{slug}}">
-                                        View News Details <i class="fa fa-angle-right"></i>
+                                        View Blog Details <i class="fa fa-angle-right"></i>
                                     </a>
                                 </div>
                             </div>
