@@ -1,3 +1,4 @@
+var default_image_url = "//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/png/1538496378502/LamptonMallLogoSquare.png"
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];
     var item_rendered = [];
