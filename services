@@ -32,11 +32,13 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
+                <h1 id="mm_page_title"></h1>
                 <div id="mm_page_content"></div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
+                <h1 id="mm_page_title_2"></h1>
                 <div id="mm_page_content_2"></div>
             </div>
         </div>
