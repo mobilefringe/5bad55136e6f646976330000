@@ -57,7 +57,7 @@
                 }
             }); 
             //get accessibility json
-            var a_pages_json = prefix + "/pages/lambton-guest-services.json"
+            var a_pages_json = prefix + "/pages/lambton-accessibility.json"
             $.getJSON(a_pages_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
                     $('#mm_page_content').html(data.body);
