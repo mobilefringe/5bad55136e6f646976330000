@@ -60,10 +60,10 @@
             var a_pages_json = prefix + "/pages/lambton-accessibility.json"
             $.getJSON(a_pages_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
-                    $('#mm_page_content').html(data.body);
+                    $('#mm_page_content_2').html(data.body);
                 }
                 if(Cookies.get('current_locale') == "fr-CA"){
-                    $('#mm_page_content').html(data.body_2);
+                    $('#mm_page_content_2').html(data.body_2);
                 }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
@@ -74,10 +74,10 @@
             var m_pages_json = prefix + "/pages/lambton--mall-walkers-club.json"
             $.getJSON(m_pages_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
-                    $('#mm_page_content').html(data.body);
+                    $('#mm_page_content_3').html(data.body);
                 }
                 if(Cookies.get('current_locale') == "fr-CA"){
-                    $('#mm_page_content').html(data.body_2);
+                    $('#mm_page_content_3').html(data.body_2);
                 }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
