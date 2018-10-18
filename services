@@ -70,6 +70,20 @@
                    console.log("Error loading ", pages_json);
                 }
             }); 
+            // get mall walkers json
+            var g_pages_json = prefix + "/pages/lambton-guest-services.json"
+            $.getJSON(pages_json).done(function(data) {
+                if(Cookies.get('current_locale') == "en-CA"){
+                    $('#mm_page_content').html(data.body);
+                }
+                if(Cookies.get('current_locale') == "fr-CA"){
+                    $('#mm_page_content').html(data.body_2);
+                }
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                   console.log("Error loading ", pages_json);
+                }
+            }); 
             show_content();
         }
         loadMallDataCached(renderAll); 
