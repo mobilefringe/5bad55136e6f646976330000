@@ -155,6 +155,7 @@
             $('.close_popup, .custom_backdrop').click(function(){
                 $(".modal-backdrop").remove();
 		        $(".popup_home").remove();
+		        $('body').removeClass('no_scroll');
             });
         }
         loadMallDataCached(renderAll); 
