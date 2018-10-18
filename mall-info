@@ -96,7 +96,7 @@
                    console.log("Error loading ", a_pages_json);
                 }
             }); 
-            // get mall walkers json
+            // getmall gallery 
            
             show_content();
         }
