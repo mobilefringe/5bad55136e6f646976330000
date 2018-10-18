@@ -73,7 +73,7 @@
                 
             }
             else if (slug == 'lambton-in-the-community'){
-                $("#act_green").show();
+                $("#in_community").show();
                 
             }
             show_content();
