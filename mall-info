@@ -44,7 +44,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <h1 id="mm_page_title_3" data-i18n="inside_pages.mall_photos"></h1>
+                <h1 id="mm_page_title_3"  data-i18n="inside_pages.mall_photos"></h1>
                 <div class="flexslider">
                     <ul class="slides" id="lookbook_slider">
                         <script id="lookbook_slider_template" type="x-tmpl-mustache/text">
