@@ -96,7 +96,7 @@
                    console.log("Error loading ", a_pages_json);
                 }
             }); 
-            // getmall gallery 
+            // get mall gallery images
            
             show_content();
         }
