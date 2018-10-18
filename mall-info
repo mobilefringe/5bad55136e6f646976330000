@@ -97,21 +97,7 @@
                 }
             }); 
             // get mall walkers json
-            var m_pages_json = prefix + "/pages/lambton-mall-walkers-club.json"
-            $.getJSON(m_pages_json).done(function(data) {
-                if(Cookies.get('current_locale') == "en-CA"){
-                    $('#mm_page_title_3').text(data.title);
-                    $('#mm_page_content_3').html(data.body);
-                }
-                if(Cookies.get('current_locale') == "fr-CA"){
-                    $('#mm_page_title_3').text(data.title_2);
-                    $('#mm_page_content_3').html(data.body_2);
-                }
-            }).fail(function(jqXHR) {
-                if (jqXHR.status == 404) {
-                   console.log("Error loading ", m_pages_json);
-                }
-            }); 
+           
             show_content();
         }
         loadMallDataCached(renderAll); 
