@@ -57,7 +57,9 @@
 		"mall_info": "Mall Info",
 	    "leasing": "Leasing",
 		"careers": "Careers",
-	    "share": "Share: "
+	    "share": "Share: ",
+	    "act_green": "ACT Green",
+	    "in_community": "In The Community
 	},
 	"stores": {
 	    "title": "Stores",
