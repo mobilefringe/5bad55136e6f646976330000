@@ -42,6 +42,7 @@
             }
             
             var prefix = get_prefix();
+            //get guest services json
             var g_pages_json = prefix + "/pages/lambton-guest-services.json"
             $.getJSON(pages_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
