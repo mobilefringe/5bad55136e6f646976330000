@@ -52,7 +52,7 @@
                 }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
-                    $("#404_msg").fadeIn("fast");
+                   console.log("Error loading ", pages_json)
                 }
             }); 
             show_content();
