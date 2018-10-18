@@ -2,7 +2,7 @@
     <h2 id="mm_page_title"></h2>
     <p data-i18n="inside_page.header_tagline"></p>
 </div>
-<div class="store_list_head main_container" id="act_green>
+<div class="store_list_head main_container" id="act_green">
     <div class="row hidden_phone">
         <div class="col-md-3">
             <h5 class="active_heading" data-i18n="inside_page.services"></h5>
@@ -66,6 +66,12 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
+            
+            // check if top header should be shown 
+            if(slug == ''){
+                $("#act_green").show();
+                
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
