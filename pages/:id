@@ -72,6 +72,10 @@
                 $("#act_green").show();
                 
             }
+            else if (slug == 'lambton-in-the-community'){
+                $("#act_green").show();
+                
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
