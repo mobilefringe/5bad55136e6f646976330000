@@ -44,21 +44,21 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-        <div class="flexslider">
-            <ul class="slides" id="lookbook_slider">
-                <script id="lookbook_slider_template" type="x-tmpl-mustache/text">
-                    <li>
-                        <img src="{{image_url}}" alt="Lookbook Image" class ="gallery_image"/>
-                        <div class="lookbook_container"> 
-                            {{#name}}
-                            <h1 class="lookbook_header">{{name}}</h1>
-                            <p class="lookbook_description">{{description}}</p>
-                            {{/name}}
-                        </div>
-                    </li>
-                </script>
-            </ul>
-        </div>
+                <div class="flexslider">
+                    <ul class="slides" id="lookbook_slider">
+                        <script id="lookbook_slider_template" type="x-tmpl-mustache/text">
+                            <li>
+                                <img src="{{image_url}}" alt="Lookbook Image" class ="gallery_image"/>
+                                <div class="lookbook_container"> 
+                                    {{#name}}
+                                    <h1 class="lookbook_header">{{name}}</h1>
+                                    <p class="lookbook_description">{{description}}</p>
+                                    {{/name}}
+                                </div>
+                            </li>
+                        </script>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
