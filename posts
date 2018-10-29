@@ -85,7 +85,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var banner_repo = getRepoDetailsByName("News Banner");
+            var banner_repo = getRepoDetailsByName("Blog Banner");
             if (banner_repo) {
                 var banner_image = banner_repo.images[0].image_url;
                 if (banner_image) {
