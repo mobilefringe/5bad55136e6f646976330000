@@ -63,6 +63,9 @@
         <h3>
             Some fancy banner text
         </h3>
+        <p>
+            Some description text here
+        </p>
     </div>
 </div>
 <div class="content_container main_container">
