@@ -60,6 +60,9 @@
                 </a>
             </li>
         </ul>
+        <h3>
+            Some fancy banner text
+        </h3>
     </div>
 </div>
 <div class="content_container main_container">
