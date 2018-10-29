@@ -61,7 +61,7 @@
             </li>
         </ul>
     </div>
-    <div>
+    <div class="banner_text">
         <h3>
             Some fancy banner text
         </h3>
