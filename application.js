@@ -205,8 +205,8 @@ function renderFeatureItems(){
     // var items = getFeatureList();
     var items = [];
     var images= ["//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601014000/LM_Web_Assets_2018_Rectangle_Feature_470x940_1.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540600998000/LM_2018_Assets_Square_Feature_470x470_1.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540600998000/LM_2018_Assets_Square_Feature_470x470_2.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601000000/LM_2018_Assets_Square_Feature_470x470_3.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601002000/LM_2018_Assets_Square_Feature_470x470_4.jpg","https://picsum.photos/470?image=1076","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601016000/LM_Web_Assets_2018_Rectangle_Feature_470x940_2.jpg"]
-    var urls = ["/feature1_url", "/feature2_url", "feature3_url", "feature4_url", "feature5_url", "feature6_url", "feature7_url"];
-    var names = ["feature1", "feature", "featurel", "feature4", "feature5", "feature6", "feature7"];
+    var urls = ["/events", "/promotions", "/gift-cards", "/stores", "/about-us", "feature6_url", "/posts"];
+    var names = ["Contests & Events", "Promotions", "Gift Cards", "Stores", "About Us", "feature6", "Blog"];
     $.each(images, function(i, val){
         var item = {};
         item.name = names[i];
