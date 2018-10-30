@@ -36,7 +36,7 @@
             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
         </div>
          <div class="col-md-3">
-            <h5><a href="/pages/lambton-act-green-initiatives" data-i18n="inside_page.act_green"></a></h5>
+            <h5><a href="/pages/lambton-act-green-initiatives--2" data-i18n="inside_page.act_green"></a></h5>
         </div>
          <div class="col-md-3">
             <h5 class="active_heading" data-i18n="inside_page.in_community"></h5>
@@ -48,7 +48,7 @@
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/services" data-i18n="inside_page.services"></option>
             <option value="/gift-cards" data-i18n="inside_page.gift_cards"></option>
-            <option value="/pages/lambton-act-green-initiatives" data-i18n="inside_page.act_green"></option>
+            <option value="/pages/lambton-act-green-initiatives--2" data-i18n="inside_page.act_green"></option>
         </select>
     </h5>
 </div>
@@ -94,7 +94,7 @@
             }); 
             
             // check if top header should be shown 
-            if(slug == 'lambton-act-green-initiatives'){
+            if(slug == '/pages/lambton-act-green-initiatives--2'){
                 $("#act_green").show();
                 
             }
