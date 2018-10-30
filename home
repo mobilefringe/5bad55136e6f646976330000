@@ -45,17 +45,17 @@
         <!--</ul>-->
         <ul class="slides" id="home_banner">
             <li class="position_relative">
-                <a href="/stores" {{css}}>
+                <a href="/" {{css}}>
                     <div class="hero_banner" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601252000/LM_2018_Assets_Home_Page_Banner_1920x540_2.jpg')"></div>
                 </a>
             </li>
             <li class="position_relative">
-                <a href="/stores" {{css}}>
+                <a href="/" {{css}}>
                     <div class="hero_banner" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601254000/LM_2018_Assets_Home_Page_Banner_1920x540_1.jpg')"></div>
                 </a>
             </li>
             <li class="position_relative">
-                <a href="/stores" {{css}}>
+                <a href="/" {{css}}>
                     <div class="hero_banner" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601248000/LM_2018_Assets_Home_Page_Banner_1920x540_3.jpg')"></div>
                 </a>
             </li>
