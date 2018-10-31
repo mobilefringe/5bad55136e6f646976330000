@@ -61,13 +61,15 @@
             </li>
         </ul>
     </div>
-    <div class="banner_text">
+    <div class="banner_text" id="welcome_msg_container">
+        <script id="banner_template" type="x-tmpl-mustache/text">
         <h3>
             Shopping Made Easy
         </h3>
         <p>
             
         </p>
+        </script>
     </div>
 </div>
 <div class="content_container main_container">
