@@ -198,8 +198,10 @@
       					<a href="?locale=en" id="set_lang_en">EN</a> |
       					<a href="?locale=fr" id="set_lang_fr">FR</a>
 					</div>
-					<div id="g_translater" class="text-center">
-                        <div id="google_translate_element"></div>
+					<div id="desktopHeader">
+                        <div id="g_translater" class="text-center">
+                            <div id="google_translate_element"></div>
+                        </div>
                     </div>
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="Open Menu">
                 </div>
