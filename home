@@ -64,10 +64,10 @@
     <div class="banner_text" id="welcome_msg_container">
         <script id="welcome_msg_template" type="x-tmpl-mustache/text">
             <h3>
-                Shopping Made Easy
+                {{welcome_message}}
             </h3>
             <p>
-                
+                {{description}}
             </p>
         </script>
     </div>
