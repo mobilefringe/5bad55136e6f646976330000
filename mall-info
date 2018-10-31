@@ -89,6 +89,7 @@
                     $('#mm_page_title').text(data.title_2);
                     $('#mm_page_content').html(data.body_2);
                 }
+                $("#mm_page_content").addClass("contact_us_container")
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                    console.log("Error loading ", g_pages_json);
