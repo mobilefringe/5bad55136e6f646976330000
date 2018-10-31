@@ -63,12 +63,12 @@
     </div>
     <div class="banner_text" id="welcome_msg_container">
         <script id="welcome_msg_template" type="x-tmpl-mustache/text">
-            <h3>
+            {{#welcome_message}}<h3>
                 {{welcome_message}}
-            </h3>
-            <p>
+            </h3>{{/welcome_message}}
+            {{#description}}<p>
                 {{description}}
-            </p>
+            </p>{{/description}}
         </script>
     </div>
 </div>
