@@ -105,7 +105,7 @@
             
             <div class="feature_item">
                 <div id="feature_4" class="position_relative"></div>
-                <div class="social_box text-center" id="social_fb">
+                <div class="social_box facebook_box text-center" id="social_fb">
                    
                     <span class="hidden-sm hidden-xs">
                         <a href="#" id="latest_fb_link" target="_blank">
