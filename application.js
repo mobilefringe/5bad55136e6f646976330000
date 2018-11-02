@@ -746,9 +746,9 @@ function renderPromoDetails(container, template, collection, mall_name){
             if (val.promo_image2_url_abs.indexOf('missing.png') > 0){
                 if (val.promo_image_url_abs.indexOf('missing.png') > 0){
                     val.show_img = "display: none"
+                    $(".store_logo").hide();
                 } else {
                     val.image_url = val.promo_image_url_abs;
-                    $(".store_logo").hide();
                 }
             } else {
                 val.image_url = val.promo_image2_url_abs;
