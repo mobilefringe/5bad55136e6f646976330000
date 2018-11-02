@@ -202,7 +202,7 @@ function renderEventDetails(container, template, collection, mall_name){
 }
 
 function renderFeatureItems(){
-    // var items = getFeatureList();
+    var items = getFeatureList();
     var items = [];
     var images= ["//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601014000/LM_Web_Assets_2018_Rectangle_Feature_470x940_1.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540600998000/LM_2018_Assets_Square_Feature_470x470_1.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540600998000/LM_2018_Assets_Square_Feature_470x470_2.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601000000/LM_2018_Assets_Square_Feature_470x470_3.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601002000/LM_2018_Assets_Square_Feature_470x470_4.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540932126000/LM_2018_Assets_Square_Feature_470x470_Enviro_Option_3.jpg","//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/jpeg/1540601016000/LM_Web_Assets_2018_Rectangle_Feature_470x940_2.jpg"]
     var urls = ["/events", "/promotions", "/gift-cards", "/stores", "/mall-info", "/pages/lambton-act-green-initiatives--2", "/posts"];
