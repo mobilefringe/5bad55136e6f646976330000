@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 hidden_phone">
-                    <img src="{{store_image}}" alt="{{store_name}} Logo" class="store_logo" />
+                    <img src="{{store_image}}" alt="{{store_name}} Logo" class="store_logo" style="{{show_img}}" />
                     <div class="side_stores">
                         <a class="animated_btn newsletter_btn" href="/stores/{{store_slug}}" style="{{store_show}}">
                             <span data-i18n="stores.store_details"></span>
