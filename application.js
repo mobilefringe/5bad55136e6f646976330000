@@ -748,6 +748,7 @@ function renderPromoDetails(container, template, collection, mall_name){
                     val.show_img = "display: none"
                 } else {
                     val.image_url = val.promo_image_url_abs;
+                    $(".store_logo").hide();
                 }
             } else {
                 val.image_url = val.promo_image2_url_abs;
