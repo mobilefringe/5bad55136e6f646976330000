@@ -61,7 +61,7 @@
             </li>
         </ul>
     </div>
-    <div class="banner_text" id="welcome_msg_container">
+    <div class="banner_text main_container" id="welcome_msg_container">
         <script id="welcome_msg_template" type="x-tmpl-mustache/text">
             {{#welcome_message}}<h3>
                 {{welcome_message}}
