@@ -175,8 +175,8 @@
             
             show_content();
             if(window.outerWidth > 768){
-                // if($.cookie("popup_viewed") != "true"){
-                    // $.cookie("popup_viewed", "true", { expires: 1 });
+                if($.cookie("popup_viewed") != "true"){
+                    $.cookie("popup_viewed", "true", { expires: 1 });
                     var popup = getPopups()[0];
                     if (popup != undefined){
                         $('.popup_home a').attr('href', popup.photo_link)
@@ -186,7 +186,7 @@
                         $('body').addClass('no_scroll');
                    
                    }
-            //   }
+               }
             }
             $('.close_popup, .custom_backdrop').click(function(){
                 $(".modal-backdrop").remove();
