@@ -252,7 +252,7 @@ function renderHomeHours(container, template, collection){
             val.day = day;
         }
         else {
-            var day = moment(val.holiday_date).format('ddd');//getDay(val.day_of_week);
+            var day = moment().format('ddd');//getDay(val.day_of_week);
             val.day = day;
         }
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
