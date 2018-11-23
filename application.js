@@ -251,6 +251,10 @@ function renderHomeHours(container, template, collection){
             var day = moment(val.holiday_date).format('ddd');//getDay(val.day_of_week);
             val.day = day;
         }
+        else {
+            var day = moment(val.holiday_date).format('ddd');//getDay(val.day_of_week);
+            val.day = day;
+        }
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
             var open_time = moment(val.open_time).tz(getPropertyTimeZone());
             var close_time = moment(val.close_time).tz(getPropertyTimeZone());
