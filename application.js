@@ -247,7 +247,9 @@ function renderHomeHours(container, template, collection){
             val.day = day;
         }
         else if(!val.day && val.is_holiday){
-            console.log("its a holiday")
+            console.log("its a holiday");
+            var day = moment(val.day_of_week).format('ddd');//getDay(val.day_of_week);
+            val.day = day;
         }
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
             var open_time = moment(val.open_time).tz(getPropertyTimeZone());
