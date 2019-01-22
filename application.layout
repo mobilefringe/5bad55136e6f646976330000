@@ -356,7 +356,7 @@
             </div>
         </div>
     </section>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.min.js"></script>
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.min.js"></script>-->
 </body>
 
 </html>
