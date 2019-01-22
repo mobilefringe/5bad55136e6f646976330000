@@ -141,6 +141,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            console.log("renderAll")
             var banners = _.sortBy(getBanners(), ['position']);;
             renderBanner('#banner_template','#home_banner',banners);
             var property = [getPropertyDetails()];
