@@ -177,7 +177,7 @@
 		        $('body').removeClass('no_scroll');
             });
         }
-        loadMallDataCached(renderAll); 
+        loadMallData(renderAll); 
     });
     
     function render_social(){
