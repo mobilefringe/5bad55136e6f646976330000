@@ -14,7 +14,7 @@
             <h5 class="active_heading" data-i18n="inside_page.act_green">ACT Green</h5>
         </div>
          <div class="col-md-3">
-            <h5><a href="/pages/lambton-in-the-community" data-i18n="inside_page.in_community"></a></h5>
+            <h5><a href="/pages/lambton-in-the-community" data-i18n="inside_page.in_community">Community</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -23,7 +23,7 @@
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/services" data-i18n="inside_page.services">Services</option>
             <option value="/gift-cards" data-i18n="inside_page.gift_cards">Gift Cards</option>
-            <option value="/pages/lambton-in-the-community" data-i18n="inside_page.in_community"></option>
+            <option value="/pages/lambton-in-the-community" data-i18n="inside_page.in_community">Community</option>
         </select>
     </h5>
 </div>
