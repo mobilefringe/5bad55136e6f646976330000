@@ -140,7 +140,7 @@
 <script>
     console.log("script")
     $(document).ready(function(e){
-        init_home(e);
+        init(e);
         function renderAll(){
             console.log("renderAll")
             var banners = _.sortBy(getBanners(), ['position']);;
