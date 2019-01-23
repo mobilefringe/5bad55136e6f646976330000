@@ -22,7 +22,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/gift-cards" data-i18n="inside_page.gift_cards"></option>
-            <option value="/pages/lambton-act-green-initiatives" data-i18n="inside_page.act_green"></option>
+            <option value="/pages/lambton-act-green-initiatives" data-i18n="inside_page.act_green">ACT Green</option>
             <option value="/pages/lambton-in-the-community" data-i18n="inside_page.in_community">Community</option>
         </select>
     </h5>
