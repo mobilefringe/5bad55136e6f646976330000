@@ -246,7 +246,7 @@
                 <div class="col-xs-12 show_phone home_hours_phone">
                     <p class="hours_home">
                         <span class="hours_dot"></span>
-                        <span data-i18n="header.todays_hours"></span>
+                        <span data-i18n="header.todays_hours">Today's Hours</span>
                         <span id="home_hours_container3">
                             <script id="home_hours_template3" type="x-tmpl-mustache/text">
                                 <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
