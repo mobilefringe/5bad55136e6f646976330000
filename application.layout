@@ -113,7 +113,7 @@
                 </li>
                 <li>
                     <a href="/promotions">
-                        <span data-i18n="nav.promos"></span>
+                        <span data-i18n="nav.promos">Promotions</span>
                     </a>
                 </li>
                 <li>
