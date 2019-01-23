@@ -17,8 +17,8 @@ function init(e){
     // });
     i18next.init({
       fallbackLng: 'en-CA',
-      ns: ['../en.json', '../fr.json'],
-      defaultNS: '../en.json',
+      ns: ['en.json', 'fr.json'],
+      defaultNS: 'en.json',
       debug: true
     }, (err, t) => {
       if (err) return console.log('something went wrong loading', err);
