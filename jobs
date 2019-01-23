@@ -84,7 +84,7 @@
         </div>
         <div class="row hidden_now" id="no_jobs">
             <div class="col-md-12">
-                <p data-i18n="jobs.no_jobs"></p>
+                <p data-i18n="jobs.no_jobs">There are no Job postings at this time. Please check back soon!</p>
             </div>
         </div>
     </div>
