@@ -1,5 +1,5 @@
 function init(e){
-    $('<div class="modal-backdrop custom_backdrop"><img src="//kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
+    $('<div class="modal-backdrop custom_backdrop_load"><div class="loader">Loading...</div></div>').appendTo(document.body);
     $('.open_menu').click(function(e){
         e.preventDefault();
         $('body').addClass('no_scroll');
