@@ -268,7 +268,7 @@
         <div class="newsletter_container text-center">
             <h3 class="heading" data-i18n="footer.newsletter_title">Subscribe to Receive Our Updates</h3>
             <p class="newsletter_desc" data-i18n="footer.newsletter_tagline">Fashion • Events • Sales</p>
-            <a href="/newsletter" class="newsletter_btn animated_btn" data-i18n="footer.newsletter_submit"></a>
+            <a href="/newsletter" class="newsletter_btn animated_btn" data-i18n="footer.newsletter_submit">Sign Up</a>
         </div>
         <div class="site_map">
             <div class="row">
