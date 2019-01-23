@@ -16,7 +16,7 @@ function init(e){
     //     }
     // });
     i18next.init({
-      fallbackLng: 'en-CA',
+      fallbackLng: 'en',
       ns: ['en.json', 'fr.json'],
       defaultNS: 'en.json',
       debug: true
