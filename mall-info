@@ -11,7 +11,7 @@
             <h5 class="active_heading" data-i18n="inside_page.mall_info">Mall Info</h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/leasing" data-i18n="inside_page.leasing"></a></h5>
+            <h5><a href="/leasing" data-i18n="inside_page.leasing">Leasing</a></h5>
         </div>
         <div class="col-md-3">
             <h5><a href="/jobs" data-i18n="inside_page.careers"></a></h5>
