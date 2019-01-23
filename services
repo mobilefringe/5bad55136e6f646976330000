@@ -8,7 +8,7 @@
             <h5 class="active_heading" data-i18n="inside_page.services">Services</h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
+            <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards">Gift Cards</a></h5>
         </div>
          <div class="col-md-3">
             <h5><a href="/pages/lambton-act-green-initiatives--2" data-i18n="inside_page.act_green"></a></h5>
