@@ -5,15 +5,15 @@ function init(e){
     getStorage().setItem('secondary_locale','fr-CA');
     //Using i18n for localization, for more info please visit http://i18next.com/
     i18n.init({preload: ['en-CA','fr-CA'],resGetPath: '../__lng__.json',fallbackLng: 'en-CA' }, function(t) {
-        // var current_locale = "";
-        // if(typeof(Cookies.get('current_locale')) != 'undefined' ){
-        //     current_locale = Cookies.get('current_locale')
-        // }
-        // if(current_locale == Cookies.get('primary_locale')){
-        //     setPrimaryLanguage();
-        // }else{
-        //     setSecondaryLanguage();
-        // }
+        var current_locale = "";
+        if(typeof(Cookies.get('current_locale')) != 'undefined' ){
+            current_locale = Cookies.get('current_locale')
+        }
+        if(current_locale == Cookies.get('primary_locale')){
+            setPrimaryLanguage();
+        }else{
+            setSecondaryLanguage();
+        }
     });
     
     // If there is no language set it to the primary locale.
