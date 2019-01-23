@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <p class="category_header" data-i18n="stores.category">Categories</p>
-                <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores" data-i18n="stores.categories_all"></a></h5>
+                <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores" data-i18n="stores.categories_all">All</a></h5>
                 <div id="category_container" class="hidden_phone">
                     <script id="category_template" type="x-tmpl-mustache/text">
                         <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{cat_name}}</a></h5>
