@@ -288,7 +288,7 @@ function setCurrentLocale(locale){
 }
 
 function setPrimaryLanguage(){
-    i18next.changeLanguage(Cookies.get('primary_locale'), function(t) {
+    i18next.changeLanguage(Cookies.get('primary_locale'), function( (err, t)) {
         // $(document).i18n();
         t('key'); 
     });
@@ -298,7 +298,7 @@ function setPrimaryLanguage(){
 }
 
 function setSecondaryLanguage(){
-    i18next.changeLanguage(Cookies.get('secondary_locale'), function(t) {
+    i18next.changeLanguage(Cookies.get('secondary_locale'), function( (err, t)) {
         // $(document).i18n();
         t('key'); 
     });
