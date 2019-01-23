@@ -30,7 +30,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <button class="newsletter_btn animated_btn" type="submit" data-i18n="newsletter.subscribe"></button>
+                                <button class="newsletter_btn animated_btn" type="submit" data-i18n="newsletter.subscribe">Subscribe</button>
                             </div>
                         </div>
                     </form>
