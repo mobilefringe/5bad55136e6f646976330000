@@ -732,7 +732,7 @@ function renderStoreDetails(container, template, collection, slug){
     });
     $(container).html(item_rendered.join(''));
 }
-// var default_image_url = "//codecloud.cdn.speedyrails.net/sites/5c48d4216e6f64263a020000/image/png/1538496378502/LamptonMallLogoSquare.png"
+var default_image_url = "//codecloud.cdn.speedyrails.net/sites/5c48d4216e6f64263a020000/image/png/1538496378502/LamptonMallLogoSquare.png"
 // function renderBanner(banner_template,home_banner,banners){
 //     var item_list = [];
 //     var item_rendered = [];
@@ -767,28 +767,28 @@ function renderStoreDetails(container, template, collection, slug){
 //     $(home_banner).html(item_rendered.join(''));
 // }
 
-// function renderCategoryList(container, template, collection){
-//     var item_list = [];
-//     var item_rendered = [];
-//     var template_html = $(template).html();
-//     Mustache.parse(template_html); 
-//     $.each( collection , function( key, val ) {
-//         if(Cookies.get('current_locale') == "en-CA"){
-//             val.cat_name = val.name;
-//         }
-//         if(Cookies.get('current_locale') == "fr-CA"){
-//             if(val.name_2 != null) {
-//                 val.cat_name = val.name_2;
-//             } else {
-//                 val.cat_name = val.name;    
-//             }
-//         }
+function renderCategoryList(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if(Cookies.get('current_locale') == "en-CA"){
+            val.cat_name = val.name;
+        }
+        if(Cookies.get('current_locale') == "fr-CA"){
+            if(val.name_2 != null) {
+                val.cat_name = val.name_2;
+            } else {
+                val.cat_name = val.name;    
+            }
+        }
         
-//         var repo_rendered = Mustache.render(template_html,val);
-//         item_rendered.push(repo_rendered);
-//     });
-//     $(container).html(item_rendered.join(''));
-// }
+        var repo_rendered = Mustache.render(template_html,val);
+        item_rendered.push(repo_rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
 
 // function renderEvents(container, template, collection, centre){
 //     var item_list = [];
