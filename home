@@ -115,14 +115,14 @@
                         <span class="hidden-sm hidden-xs">
                             <div id="home_hours_container2" class="home_feature_hours">
                                 <script id="home_hours_template2" type="x-tmpl-mustache/text">
-                                    <h5> Shopping Hours</h5>
+                                    <h5 data-i18n="home.hours"></h5>
                                     <span class="hours_today">{{h}}</span>
                                 </script>
                             </div>
-                            <p class="hours_link">See More Hours</p>
+                            <p class="hours_link" data-i18n="home.hours_link"></p>
                         </span>
                         <span class="visible-sm-block visible-xs-block">
-                            <h5 id="hours_mobile" class="insta caps">Shopping Hours</h5>    
+                            <h5 id="hours_mobile" class="insta caps" data-i18n="home.hours"></h5>    
                         </span>
                     </a>
                 </div>
@@ -138,11 +138,9 @@
     }
 </style>
 <script>
-    console.log("script")
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            console.log("renderAll")
             var banners = _.sortBy(getBanners(), ['position']);;
             renderBanner('#banner_template','#home_banner',banners);
             var property = [getPropertyDetails()];
@@ -179,7 +177,7 @@
 		        $('body').removeClass('no_scroll');
             });
         }
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     });
     
     function render_social(){
