@@ -91,6 +91,9 @@
         ga('create', 'UA-40014802-29', 'auto');
         ga('send', 'pageview');
     </script>
+    <script>
+        console.log("body")
+    </script>
 </head>
 
 <body class="">
