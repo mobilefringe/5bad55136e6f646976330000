@@ -118,7 +118,7 @@
                 </li>
                 <li>
                     <a href="/events">
-                        <span data-i18n="nav.contest_events"></span>
+                        <span data-i18n="nav.contest_events">Contest & Events</span>
                     </a>
                 </li>
                  <li>
