@@ -299,7 +299,8 @@ function setPrimaryLanguage(){
 
 function setSecondaryLanguage(){
     i18next.changeLanguage(Cookies.get('secondary_locale'), function(t) {
-        $(document).i18n();
+        // $(document).i18n();
+        t('key'); 
     });
     Cookies.set('current_locale', Cookies.get('secondary_locale'))
     $('.secondary-locale').show();
