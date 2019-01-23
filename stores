@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div id="coming_soon_stores">
-                    <p class="category_header" data-i18n="stores.coming_soon"></p>
+                    <p class="category_header" data-i18n="stores.coming_soon">Coming Soon</p>
                     <div id="coming_soon_container">
                         <script id="coming_soon_template" type="x-tmpl-mustache/text">
                             <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>    
