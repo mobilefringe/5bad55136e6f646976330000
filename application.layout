@@ -149,7 +149,7 @@
                         <li><a href="/hours" data-i18n="nav.subnav.hours">Shopping Hours</a></li>
                         <li><a href="/mall-info" data-i18n="nav.subnav.mall_info">Mall Info</a></li>
                         <li><a href="/leasing" data-i18n="nav.subnav.leasing">Leasing</a></li>
-                        <li><a href="/jobs" data-i18n="nav.subnav.careers"></a></li>
+                        <li><a href="/jobs" data-i18n="nav.subnav.careers">Careers</a></li>
 					</ul>
                 </li>
             </ul>
