@@ -45,7 +45,7 @@
             </div>
             <div class="col-md-4 hidden_phone">
                 <div id="new_stores">
-                    <p class="category_header" data-i18n="stores.new_stores"></p>
+                    <p class="category_header" data-i18n="stores.new_stores">New Stores</p>
                     <div id="new_store_container">
                         <script id="new_store_template" type="x-tmpl-mustache/text">
                             <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>  
