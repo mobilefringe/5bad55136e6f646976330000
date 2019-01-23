@@ -8,7 +8,7 @@ function init(e){
             current_locale = Cookies.get('current_locale')
         }
         if(current_locale == Cookies.get('primary_locale')){
-            setPrimaryLanguage();
+            // setPrimaryLanguage();
         }else{
             setSecondaryLanguage();
         }
@@ -17,7 +17,7 @@ function init(e){
     // If there is no language set it to the primary locale.
     // log(Cookies.get('current_locale'))
     if (!Cookies.get('current_locale')) {
-        setPrimaryLanguage();
+        // setPrimaryLanguage();
     }
     
     if(Cookies.get('current_locale') == "en-CA"){
