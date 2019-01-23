@@ -4,26 +4,26 @@ function init(e){
     getStorage().setItem('primary_locale', 'en-CA');
     getStorage().setItem('secondary_locale','fr-CA');
     //Using i18n for localization, for more info please visit http://i18next.com/
-    // i18n.init({preload: ['en-CA','fr-CA'],resGetPath: '../__lng__.json',fallbackLng: false }, function(t) {
-    //     var current_locale = "";
-    //     if(typeof(Cookies.get('current_locale')) != 'undefined' ){
-    //         current_locale = Cookies.get('current_locale')
-    //     }
-    //     if(current_locale == Cookies.get('primary_locale')){
-    //         setPrimaryLanguage();
-    //     }else{
-    //         setSecondaryLanguage();
-    //     }
-    // });
-    i18next.init({
-      fallbackLng: 'en',
-      ns: ['en.json', 'fr.json'],
-      defaultNS: 'en.json',
-      debug: true
-    }, (err, t) => {
-      if (err) return console.log('something went wrong loading', err);
-      t('key'); // -> same as i18next.t
+    i18n.init({preload: ['en-CA','fr-CA'],resGetPath: '../__lng__.json',fallbackLng: false }, function(t) {
+        var current_locale = "";
+        if(typeof(Cookies.get('current_locale')) != 'undefined' ){
+            current_locale = Cookies.get('current_locale')
+        }
+        if(current_locale == Cookies.get('primary_locale')){
+            setPrimaryLanguage();
+        }else{
+            setSecondaryLanguage();
+        }
     });
+    // i18next.init({
+    //   fallbackLng: 'en',
+    //   ns: ['en.json', 'fr.json'],
+    //   defaultNS: 'en.json',
+    //   debug: true
+    // }, (err, t) => {
+    //   if (err) return console.log('something went wrong loading', err);
+    //   t('key'); // -> same as i18next.t
+    // });
     // If there is no language set it to the primary locale.
     // log(Cookies.get('current_locale'))
     if (!Cookies.get('current_locale')) {
