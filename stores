@@ -8,7 +8,7 @@
             <h5 class="active_heading" data-i18n="inside_page.stores">Stores</h5>
         </div>
         <div class="col-md-6">
-            <h5><a href="/map" data-i18n="inside_page.map"></a></h5>
+            <h5><a href="/map" data-i18n="inside_page.map">Shopping Map</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
