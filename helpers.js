@@ -16,7 +16,7 @@ function init(e){
     //     }
     // });
     i18next.init({
-      fallbackLng: 'en',
+      fallbackLng: 'en-CA',
       ns: ['file1', 'file2'],
       defaultNS: 'file1',
       debug: true
