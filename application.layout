@@ -92,7 +92,7 @@
         ga('send', 'pageview');
     </script>
     <script>
-        console.log("body")
+        console.log("header")
     </script>
 </head>
 
