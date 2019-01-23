@@ -16,14 +16,14 @@ function init(e){
     //     }
     // });
     i18next.init({
-  fallbackLng: 'en',
-  ns: ['file1', 'file2'],
-  defaultNS: 'file1',
-  debug: true
-}, (err, t) => {
-  if (err) return console.log('something went wrong loading', err);
-  t('key'); // -> same as i18next.t
-});
+      fallbackLng: 'en',
+      ns: ['file1', 'file2'],
+      defaultNS: 'file1',
+      debug: true
+    }, (err, t) => {
+      if (err) return console.log('something went wrong loading', err);
+      t('key'); // -> same as i18next.t
+    });
     // If there is no language set it to the primary locale.
     // log(Cookies.get('current_locale'))
     if (!Cookies.get('current_locale')) {
