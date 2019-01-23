@@ -17,7 +17,7 @@ function init(e){
     // });
     i18next.init({
       fallbackLng: 'en-CA',
-      ns: ['file1', 'file2'],
+      ns: ['../en.json', '../fr.json'],
       defaultNS: 'file1',
       debug: true
     }, (err, t) => {
