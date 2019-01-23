@@ -119,7 +119,7 @@
                                     <span class="hours_today">{{h}}</span>
                                 </script>
                             </div>
-                            <p class="hours_link" data-i18n="home.hours_link"></p>
+                            <p class="hours_link" data-i18n="home.hours_link">See More Hours</p>
                         </span>
                         <span class="visible-sm-block visible-xs-block">
                             <h5 id="hours_mobile" class="insta caps" data-i18n="home.hours"></h5>    
