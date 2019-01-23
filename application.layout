@@ -136,7 +136,7 @@
                 </li>
                 <li>
                     <a href="/posts">
-                        <span data-i18n="nav.blog"></span>
+                        <span data-i18n="nav.blog">Blog</span>
                     </a>
                 </li>
                 <li>
