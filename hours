@@ -23,7 +23,7 @@
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/mall-info" data-i18n="inside_page.mall_info"></option>
             <option value="/leasing" data-i18n="inside_page.leasing"></option>
-            <option value="/jobs" data-i18n="inside_page.careers"></option>
+            <option value="/jobs" data-i18n="inside_page.careers">Careers</option>
         </select>
     </h5>
 </div>
