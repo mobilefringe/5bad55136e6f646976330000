@@ -320,7 +320,7 @@
                                 <li><a href="/posts" data-i18n="nav.blog">Blog</a></li>
                                 <li><a href="/events" data-i18n="nav.contest_events">Contest & Events</a></li>
                                 <li><a href="/promotions" data-i18n="nav.promos">Promotions</a></li>
-                                <li><a href="/jobs" data-i18n="nav.subnav.careers"></a></li>
+                                <li><a href="/jobs" data-i18n="nav.subnav.careers">Careers</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 col-xs-6">
