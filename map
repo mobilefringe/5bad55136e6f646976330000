@@ -24,8 +24,8 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-4 hidden_phone">
-                <a id="store_scroll_up" href="#" class="store_list_navigation" data-i18n="map.scroll_up"></a>
-                <a id="store_scroll_down" href="#" class="store_list_navigation" data-i18n="map.scroll_down"></a>
+                <a id="store_scroll_up" href="#" class="store_list_navigation" data-i18n="map.scroll_up">Scroll Up</a>
+                <a id="store_scroll_down" href="#" class="store_list_navigation" data-i18n="map.scroll_down">Scroll Down</a>
                 <p class="category_header" data-i18n="map.find_store"></p>
                 <div id="stores_container">
                     <script id="stores_template" type="x-tmpl-mustache/text">
