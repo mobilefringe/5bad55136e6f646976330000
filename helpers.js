@@ -82,7 +82,75 @@ function init(e){
     var current_year = moment().year();
     $("#current_year").text(current_year);
 }
-
+function init_home(e){
+    $('<div class="modal-backdrop custom_backdrop_load"><div class="loader">Loading...</div></div>').appendTo(document.body);
+    
+    // If there is no language set it to the primary locale.
+    // log(Cookies.get('current_locale'))
+    if (!Cookies.get('current_locale')) {
+        setPrimaryLanguage();
+    }
+    
+    if(Cookies.get('current_locale') == "en-CA"){
+        $("#set_lang_fr").css({fontWeight: "normal"});
+        $("#set_lang_fr_m").css({fontWeight: "normal"});
+        $("#set_lang_en").css({fontWeight: "bold"});               
+        $("#set_lang_en_m").css({fontWeight: "bold"}); 
+    }
+    if(Cookies.get('current_locale') == "fr-CA"){
+        $("#set_lang_en").css({fontWeight: "normal"});
+        $("#set_lang_en_m").css({fontWeight: "normal"});
+        $("#set_lang_fr").css({fontWeight: "bold"});
+        $("#set_lang_fr_m").css({fontWeight: "bold"}); 
+    }
+    
+    $('.open_menu').click(function(e){
+        e.preventDefault();
+        $('body').addClass('no_scroll');
+        $('.mobile_menu_container').addClass('active_menu')
+    });
+    
+    $('#close_menu').click(function(e){
+        e.preventDefault();
+        $('body').removeClass('no_scroll');
+        $('.mobile_menu_container').removeClass('active_menu');
+        $('.sub_menu.hidden_now').css('display', "none")
+        $('.plus_icon').show();
+        $('.minus_icon.menu_icon').hide()
+    });
+    
+    $('.submenu_expander').click(function(e){
+		e.preventDefault()
+		if ($(this).hasClass('open') == false){
+        	$('.open').next().slideToggle();
+        	$('.open').find('img').toggle();
+        	$('.open').toggleClass('open')
+		}
+		$(this).next().slideToggle();
+		$(this).find('img').toggle();
+		$(this).toggleClass('open')
+	})
+	
+	$('html').click(function() {
+        $('body').removeClass('no_scroll');
+        $('.mobile_menu_container').removeClass('active_menu')
+        $('.sub_menu.hidden_now').css('display', "none")
+        $('.plus_icon').show()
+        $('.minus_icon.menu_icon').hide()
+    });
+    
+    $('.mobile_menu_container, .open_menu').click(function(event){
+        event.stopPropagation();
+    });
+    
+    $('#option_selector').change(function(){
+        window.location = $(this).val();
+    });
+    
+    //dynamically changing copyright year
+    var current_year = moment().year();
+    $("#current_year").text(current_year);
+}
 function show_content(){
     setTimeout(function() {
         var scrolled = 0;
