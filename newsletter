@@ -24,7 +24,7 @@
                             <div class="col-sm-12">
                                 <label class="agree_terms">
                                     <input id="agree_terms" type="checkbox" required /> 
-                                    <span data-i18n="newsletter.agree"></span>
+                                    <span data-i18n="newsletter.agree">I agree to receive communications from Lambton Mall.</span>
                                 </label>
                             </div>
                         </div>
