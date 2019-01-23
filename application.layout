@@ -131,7 +131,7 @@
                         <li><a href="/services" data-i18n="nav.subnav.services">Services</a></li>
                         <li><a href="/gift-cards" data-i18n="nav.subnav.gift_cards">Gift Cards</a></li>
                         <li><a href="/pages/lambton-act-green-initiatives--2" data-i18n="nav.subnav.act_green">ACT Green Initiatives</a></li>
-                        <li><a href="/pages/lambton-in-the-community" data-i18n="nav.subnav.in_community"></a></li>
+                        <li><a href="/pages/lambton-in-the-community" data-i18n="nav.subnav.in_community">In The Community</a></li>
 					</ul>
                 </li>
                 <li>
