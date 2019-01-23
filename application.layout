@@ -253,7 +253,7 @@
                             </script>
                         </span>
                     </p>
-                    <a class="holiday_hours_home" href="/hours" data-i18n="header.check_hours"></a>
+                    <a class="holiday_hours_home" href="/hours" data-i18n="header.check_hours">View Holiday Hours</a>
                 </div>
             </div>
             <div class="hedaer_divider"></div>
