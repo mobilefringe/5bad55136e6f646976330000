@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9">
-                                    <h2 class="promo_list_name">{{name}}</h2>
+                                    <h2 class="promo_list_name">hello</h2>
                                     <p>
                                         <a href="{{store_slug}}" class="underline promo_store" style="{{store_show}}">{{store_name}}</a>
                                         <span class="promo_store" style="{{mall_show}}">{{store_name}}</span>
