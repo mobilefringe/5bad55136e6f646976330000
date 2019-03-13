@@ -92,7 +92,7 @@
                    
                     <span class="hidden-sm hidden-xs">
                         <a href="#" id="latest_fb_link" target="_blank">
-                            <p id="latest_fb" class="latest_post">LIKE US ON FACEBOOK</p>
+                            <p id="latest_fb" class="latest_post"></p>
                         </a>
                         <p id="latest_fb_date" class="latest_post"></p>
                         <p id="fb_link">
