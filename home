@@ -184,7 +184,7 @@
         var social_feed = getSocialFeed();
         var latest_tweet = social_feed.twitter[0]
         var latest_fb_post = social_feed.facebook[0]
-        console.log(latest_fb_post)
+        console.log(social_feed)
         console.log(latest_tweet)
         
         if(latest_tweet.text.length > 100){
