@@ -97,7 +97,7 @@
             // check if top header should be shown 
             if(slug == 'lambton-act-green-initiatives--2'){
                 $("#act_green").show();
-                $("#in_community").hide
+                $("#in_community").hide();
             }
             else if (slug == 'lambton-in-the-community'){
                 $("#act_green").hide();
