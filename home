@@ -197,7 +197,7 @@
         //.text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDate())
         
         if(latest_fb_post === undefined) {
-            $('#latest_fb').hide();
+            $('#latest_fb').text("No facebook posts").hide();
         }
         
         if(latest_fb_post.text.length > 100){
