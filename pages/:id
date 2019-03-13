@@ -92,6 +92,7 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
+            console.log(slug)
             
             // check if top header should be shown 
             if(slug == 'lambton-act-green-initiatives--2'){
