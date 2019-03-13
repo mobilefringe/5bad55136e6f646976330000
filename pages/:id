@@ -100,6 +100,7 @@
                 
             }
             else if (slug == 'lambton-in-the-community'){
+                $("#act_green").hide();
                 $("#in_community").show();
                 
             }
