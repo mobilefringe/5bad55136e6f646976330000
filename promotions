@@ -54,7 +54,7 @@
                                     </a>
                                 </div>
                             </div>
-                            // <div class="secondary-locale">
+                            <div class="secondary-locale">
                             //     <div class="col-md-3">
                             //         <div class="cropped_image">
                             //             <img src="{{promo_image2_url_abs}}" alt="{{name}}" />
