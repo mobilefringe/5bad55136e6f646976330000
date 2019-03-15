@@ -43,12 +43,12 @@
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
-        <label class="accessibility" for="option_selector">Select an Option</label>
-        <select id="option_selector" class="link_selector">
+        <label class="accessibility" for="option_selector_2">Select an Option</label>
+        <select id="option_selector_2" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu">Tap For More Options</option>
-            <option value="/services">Services</option>
-            <option value="/gift-cards">Gift Cards</option>
-            <option value="/pages/lambton-act-green-initiatives--2">ACT Green</option>
+            <option value="/services" data-i18n="inside_page.services">Services</option>
+            <option value="/gift-cards" data-i18n="inside_page.gift_cards">Gift Cards</option>
+            <option value="/pages/lambton-act-green-initiatives--2" data-i18n="inside_page.act_green">ACT Green</option>
         </select>
     </h5>
 </div>
@@ -70,7 +70,7 @@
             if (banner_repo) {
                 var banner_image = banner_repo.images[0].image_url;
                 if (banner_image) {
-                    $(".inside_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(" + banner_image + ") center center" });
+                    $(".inside_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #000 url(" + banner_image + ") center center" });
                 }
             }
             
@@ -105,6 +105,10 @@
                 
             }
             show_content();
+            
+            $('#option_selector_2').change(function(){
+                window.location = $(this).val();
+            });
         }
         loadMallDataCached(renderAll); 
     })
