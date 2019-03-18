@@ -117,8 +117,8 @@
             $('.flexslider').flexslider({
                 animation: "slide"
             });
-            $(".flex-prev").html("");
-            $(".flex-next").html("");
+            $(".flex-prev").html("Prev");
+            $(".flex-next").html("Next");
             
             show_content();
         }
